@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package echo;
+
+service Echo {
+	rpc Get(GetRequest) returns (GetResponse) {}
+}
+
+message GetRequest {
+	string payload = 1;
+}
+
+message GetResponse {
+	string payload = 2;
+}
