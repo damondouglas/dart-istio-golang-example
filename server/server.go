@@ -42,7 +42,23 @@ func main() {
 func (*server) Get(ctx context.Context, in *echo.GetRequest) (response *echo.GetResponse, err error) {
 	log.Printf("Request received %v", in)
 	response = &echo.GetResponse{
-		Payload: in.Payload + in.Payload,
+		Payload: reverse(in.Payload),
 	}
+	return
+}
+
+func reverse(payload string) (result string) {
+	runes := []rune(payload)
+	n := len(runes)
+	i := 0
+	for {
+		n--
+		if n <= i {
+			break
+		}
+		runes[i], runes[n] = runes[n], runes[i]
+		i++
+	}
+	result = string(runes)
 	return
 }
