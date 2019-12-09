@@ -12,8 +12,6 @@ This README assumes the following are setup on your machine.
 4. [dart](https://dart.dev)
 5. [go](https://golang.org/)
 
-**IF YOU NEED HELP, PLEASE FEEL FREE TO CONTACT ME, THIS 💩 IS HARD SO DON'T FEEL LIKE YOU NEED TO BELONG TO SOME COOL CLUB TO ASK QUESTIONS**
-
 # Setup
 
 ## Set docker to point to minikube
