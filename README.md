@@ -6,11 +6,11 @@ This example combines [istio](https://istio.io), [grpc](https://grpc.io) with a 
 
 This README assumes the following are setup on your machine.
 
-1. [docker](https://docker.com)
-2. [minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/)
-3. [istio](https://istio.io/docs/setup/getting-started/)
-4. [dart](https://dart.dev)
-5. [go](https://golang.org/)
+1. [docker 18.09.9](https://docker.com)
+2. [minikube v1.4.0](https://kubernetes.io/docs/tasks/tools/install-minikube/)
+3. [istio 1.4.0](https://istio.io/docs/setup/getting-started/)
+4. [dart 2.7.0](https://dart.dev)
+5. [go 1.13](https://golang.org/)
 
 # Setup
 
